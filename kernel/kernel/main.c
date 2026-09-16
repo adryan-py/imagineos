@@ -46,6 +46,15 @@ void kernel_main(void) {
     if (!LIMINE_BASE_REVISION_SUPPORTED(limine_base_revision))
         hcf();
 
+    if (framebuffer_request.response &&
+    framebuffer_request.response->framebuffer_count)
+    {
+        video_init(
+            framebuffer_request.response->framebuffers[0]
+        );
+
+        enable_graphics_print();
+    }
     gdt_load();
     tss_init();
     idt_init();
