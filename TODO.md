@@ -1,8 +1,8 @@
 # TODO - ImagineOS Development Roadmap
 
-**Versão:** vR1 "Jessica"  
+**Versão:** alpha1-R1 "Astrid"  
 **Status:** Em Construção (Instável)  
-**Última Atualização:** 2026-06-07
+**Última Atualização:** 2026-06-16
 
 ---
 
